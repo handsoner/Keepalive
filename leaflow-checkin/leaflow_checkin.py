@@ -294,6 +294,7 @@ class LeaflowAutoCheckin:
                     "button.checkin-btn",  # 优先使用这个选择器
                     "//button[contains(text(), '立即签到')]",
                     "//*[contains(text(), '每日签到')]",
+                    "//*[contains(text(), '签到')]",
                     "//*[contains(text(), '签到')]"
                 ]
                 
@@ -620,3 +621,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
